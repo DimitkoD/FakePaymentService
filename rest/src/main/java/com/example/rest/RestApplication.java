@@ -1,13 +1,13 @@
-package com.example.fakepaymentservice;
+package com.example.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FakePaymentServiceApplication {
+public class RestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FakePaymentServiceApplication.class, args);
+        SpringApplication.run(RestApplication.class, args);
     }
 
 }
