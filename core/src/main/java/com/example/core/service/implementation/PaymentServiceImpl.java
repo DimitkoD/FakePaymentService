@@ -27,7 +27,6 @@ public class PaymentServiceImpl implements PaymentService {
             }
 
             if(paymentServiceRequest.getTotalPriceForRent() > randomBalance) {
-
                 return PaymentServiceResponse
                     .builder()
                     .responseStatus(400)
