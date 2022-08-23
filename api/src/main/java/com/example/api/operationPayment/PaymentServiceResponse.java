@@ -1,15 +1,13 @@
 package com.example.api.operationPayment;
 
 import com.example.api.base.OperationResult;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @Builder
 @ToString
+@EqualsAndHashCode
 public class PaymentServiceResponse implements OperationResult {
     private Integer responseStatus;
     private String message;
